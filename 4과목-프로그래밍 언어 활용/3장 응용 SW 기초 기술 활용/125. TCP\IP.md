@@ -62,4 +62,19 @@ TCP/IP는 응용 계층, 전송 계층, 인터넷 계층, 네트워크 액세스
  
 ## 인터넷 계층의 주요 프로토콜
 
+- IP:
+  - 전송할 데이터에 주소를 지정하고, 경로를 설정하는 기능을 한다.
+  - 비연결형인 데이터그램 방식을 사용하는 것으로 신뢰성이 보장되지 않는다.
+- ICMP(Internet Control Message Protocol): IP와 조합하여 통신중에 발생하는 오류의 처리와 전송 경로 변경 등을 위한 제어 메시지를 관리하는 역할을 하며, 헤더는 8바이트로 구성된다.
+- IGMP(Internet Group Management Protocol): 멀티캐스트를 지원하는 호스트나 라우터 사이에서 멀티캐스트 그룹 유지를 위해 사용된다.
+- ARP(Address Resolution Protocol): 호스트의 IP주소를 호스트와 연결된 네트워크 접속 장치의 물리적 주소(MAC Address)로 바꾼다.
+- RARP(Reverse Address Resolution Protocol): ARP와 반대로 물리적 주소를 IP주소로 변환하는 기능을 한다.
+
+## 네트워크 액세스 계층의 주요 프로토콜
+
+- Ethernet(IEEE 802.3): CSMA/CD 방식의 LAN
+- IEEE 802: 랜을 위한 표준 프로토콜
+- HDLC: 비트 위주의 데이터 링크 제어 프로토콜
+- X.24: 패킷 교환망을 DTE와 DCE간 인터페이스를 제공하는 프로토콜
+- RS-232C: 공중 전화 교환망을 통한 DTE와 DCE간의 인터페이스를 제공하는 프로토콜
 
